@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#1d2671,#c33764);
+}
+
+.card{
+    width:350px;
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #1d2671;
+}
+
+.card h2{
+    margin-top:15px;
+    font-size:32px;
+}
+
+.job{
+    color:gray;
+    margin-top:5px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    margin:25px 0;
+}
+
+.stats h3{
+    color:#1d2671;
+    font-size:28px;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#1d2671;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
